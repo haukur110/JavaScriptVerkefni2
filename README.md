@@ -27,7 +27,7 @@
    ```
 2. **Veldu allar málgreinar og breyttu textanum í ensku með textContent aðferðinni.**<br/>
    ```javascript 
-   var allP = document.querySelectorAll("p");
+   let allP = document.querySelectorAll("p");
    for (let i = 0; i < allp.length; i++) {
        allp[i].document.textContent = "paragraph";
    }
@@ -35,12 +35,12 @@
    ```
 3. **Bættu við efst með InnerHTML h1 með textanum Verkefni 2.2.**<br/>
    ```javascript 
-   var htmlContent = document.body.innerHTML;
+   let htmlContent = document.body.innerHTML;
    document.body.innerHTML = <h1>Verkefni 2</h1> + htmlContent;
    ```
 4. **Bættu við neðst með createElement() og append() málsgrein með nafninu þínu.**<br/>
    ```javascript 
-   var newElement = document.createElement("p");
+   let newElement = document.createElement("p");
    newElement.innerHTML = "Haukur";
    document.body.appendChild(newElement);
    ```
